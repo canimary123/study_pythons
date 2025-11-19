@@ -40,6 +40,12 @@ def to_celsius(temp):
 value = to_celsius(77)  # 인자 77 전달
 print(value)
 
+# # 코드 안에서 직접 쓸 때 (3번)
+# to_celsius(77)  # 프로그래머가 직접 입력 → 숫자로 쓰면 됨
+
+# # 외부에서 데이터 받을 때 (4번)
+# to_celsius(float(input()))  # 외부 입력은 항상 문자열 → 변환 필수!
+
 # 문제 4 — 타입 오류(TypeError)
 # 아래 코드는 문자열을 함수에 전달하여 오류가 발생한다.  이 오류가 왜 발생하는지 설명하고 해결하시오.
 # def to_celsius(temp):
