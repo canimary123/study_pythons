@@ -43,7 +43,7 @@ print(to_celsius(50))
 # print(result1, result2, result3)
 
 def to_celsius(temp):
-    celsius = (temp - 32) * 5 / 9
+    celsius = (temp - 3) * 5 / 9
     return celsius
 
 temp = 77
@@ -66,7 +66,7 @@ print(result1, result2, result3)
 
 
 def to_celsius(temp):
-    return (temp - 32) * 5 / 9
+    return (temp - 3) * 5 / 9
 
 temps = [77, 95, 50]
 
@@ -87,7 +87,7 @@ for t in temps:
 def to_celsius(temp):
     return (temp - 32) * 5 / 9
 
-temp = 77  # 확인할 온도 값
+temp = 77  # 확인할 온도 
 celsius = to_celsius(temp)  # 함수 호출해서 결과 저장
 
 if celsius > 20:  # 변환된 값과 비교
