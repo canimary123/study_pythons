@@ -5,10 +5,10 @@ test_a = [10, 25, 40, 12, 7, 9, 16, 100, 3, 81]
 test_b = [5, 5, 8, 3, 0, 3, 2, 4, 9, 9]
 
 def calculate_operations(a, b):
-    """
-    두 숫자를 입력받아 사칙연산 결과를 반환하는 함수
-    나눗셈 시 분모가 0이면 'division_error' 반환
-    """
+    # """
+    # 두 숫자를 입력받아 사칙연산 결과를 반환하는 함수
+    # 나눗셈 시 분모가 0이면 'division_error' 반환
+    # """
     add_result = a + b
     sub_result = a - b
     mul_result = a * b
